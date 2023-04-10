@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora costo kilometraje</title>
+  </head>
+  <body>
+    <div id="app">
+      <div>
+        <h3>Calculadora</h3>
+        <div class="flex">
+          <label for="kilometraje">Kilometraje: </label>
+          <input type="number" id="kilometraje" value="0" />
+        </div>
+        <div class="flex">
+          <label for="date">Fecha de compra: </label>
+          <input type="date" id="date" value="0" />
+        </div>
+        <div class="flex">
+          <button id="btn">Calcular</button>
+        </div>
+        <div class="flex">
+          <output id="output"></output>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
